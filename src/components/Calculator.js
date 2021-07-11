@@ -1,6 +1,6 @@
 import React from 'react';
 // import NumberButton from './NumberButton';
-gimport FunctionButton from './FunctionButton';
+import FunctionButton from './FunctionButton';
 import ClearButton from './ClearButton';
 import Display from './Display';
 // import EqualButton from './EqualButton';
