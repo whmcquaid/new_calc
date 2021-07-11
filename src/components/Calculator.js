@@ -1,7 +1,7 @@
 import React from 'react';
 // import NumberButton from './NumberButton';
 // import FunctionButton from './FunctionButton';
-// import ClearButton from './ClearButton';
+import ClearButton from './ClearButton';
 import Display from './Display';
 // import EqualButton from './EqualButton';
 // import BackButton from './BackButton';
@@ -14,9 +14,9 @@ const Calculator = () => (
       <h1>CALCULATOR</h1>
    <Display />
     </div>
-    {/* <div className="number-pad">
+    <div className="number-pad">
       <ClearButton />
-      <BackButton />
+      {/* <BackButton />
       <NegativeButton />
       <FunctionButton buttonValue="/" />
       <NumberButton buttonValue={7} />
@@ -35,8 +35,8 @@ const Calculator = () => (
         <NumberButton buttonValue={0} />
       </div>
       <NumberButton buttonValue="." />
-      <EqualButton />
-    </div> */}
+      <EqualButton /> */}
+    </div>
   </CalculatorStyles>
 );
 
