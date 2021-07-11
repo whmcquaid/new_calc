@@ -2,7 +2,7 @@ import React from 'react';
 // import NumberButton from './NumberButton';
 // import FunctionButton from './FunctionButton';
 // import ClearButton from './ClearButton';
-// import Display from './Display';
+import Display from './Display';
 // import EqualButton from './EqualButton';
 // import BackButton from './BackButton';
 // import NegativeButton from './NegativeButton';
@@ -12,7 +12,7 @@ const Calculator = () => (
   <CalculatorStyles>
     <div className="display">
       <h1>CALCULATOR</h1>
-   {/* <Display /> */}
+   <Display />
     </div>
     {/* <div className="number-pad">
       <ClearButton />
