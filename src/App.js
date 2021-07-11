@@ -1,12 +1,11 @@
 import './App.css';
 import NumberProvider from './components/NumberProvider';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <NumberProvider>
-    <div className="App">
-     Testing Number Provider
-    </div>
+    <Calculator/>
     </NumberProvider>
   );
 }
