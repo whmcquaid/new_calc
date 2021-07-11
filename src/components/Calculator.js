@@ -3,7 +3,7 @@ import NumberButton from './NumberButton';
 import FunctionButton from './FunctionButton';
 import ClearButton from './ClearButton';
 import Display from './Display';
-// import EqualButton from './EqualButton';
+import EqualButton from './EqualButton';
 import BackButton from './BackButton';
 import NegativeButton from './NegativeButton';
 import { CalculatorStyles } from './styles/Styles';
@@ -34,7 +34,7 @@ const Calculator = () => (
        <div className="zero-button">
         <NumberButton buttonValue={0} />
       </div>
-   {/* <EqualButton /> */}
+   <EqualButton />
     </div>
   </CalculatorStyles>
 );
