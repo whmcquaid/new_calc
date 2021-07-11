@@ -5,7 +5,7 @@ import ClearButton from './ClearButton';
 import Display from './Display';
 // import EqualButton from './EqualButton';
 import BackButton from './BackButton';
-// import NegativeButton from './NegativeButton';
+import NegativeButton from './NegativeButton';
 import { CalculatorStyles } from './styles/Styles';
 
 const Calculator = () => (
@@ -17,8 +17,8 @@ const Calculator = () => (
     <div className="number-pad">
       <ClearButton />
       <BackButton />
-     {/* <NegativeButton />
-      <FunctionButton buttonValue="/" />
+     <NegativeButton />
+      {/* <FunctionButton buttonValue="/" />
       <NumberButton buttonValue={7} />
       <NumberButton buttonValue={8} />
       <NumberButton buttonValue={9} />
